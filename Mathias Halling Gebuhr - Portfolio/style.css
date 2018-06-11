@@ -1,0 +1,373 @@
+/* BASIC */
+
+body {
+
+    color: white;
+    background-color: #141413;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: arial;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+
+header {
+    width: 100%;
+}
+
+/* CONTENT NAV */
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: deepskyblue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    position: relative;
+    padding-right: 2em;
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: #212121;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 1em;
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0 2em;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: deepskyblue;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+}
+
+/* FRONT NAV */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #242424;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    color: white;
+    display: block;
+
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sidenav.show {
+    width: 265px;
+}
+
+.menubutton {
+    position: absolute;
+    top: 0;
+    padding-left: 10px;
+    color: deepskyblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: deepskyblue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#kea-prototype iframe {
+    display: block;
+    margin: auto;
+}
+
+img:hover {
+    opacity: 0.85;
+}
+
+#cphdox {
+    justify-content: center;
+    display: flex;
+}
+
+.stilart1 {
+    display: flex;
+    justify-content: center;
+}
+
+.stilart1 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.stilart2 {
+    display: flex;
+    justify-content: center;
+}
+
+.stilart2 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.stilart3 {
+    display: flex;
+    justify-content: center;
+}
+
+.stilart3 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.egen1 {
+    display: flex;
+    justify-content: center;
+}
+
+.egen1 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.egen2 {
+    display: flex;
+    justify-content: center;
+}
+
+.egen2 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.egen3 {
+    display: flex;
+    justify-content: center;
+}
+
+.egen3 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+
+.gruppe1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gruppe1 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.redesign1 {
+    display: flex;
+    justify-content: center;
+}
+
+.redesign1 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.redesign2 {
+    display: flex;
+    justify-content: center;
+}
+
+.redesign2 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+
+.redesign3 {
+    display: flex;
+    justify-content: center;
+}
+
+.redesign3 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.keaapp1 {
+    display: flex;
+    justify-content: center;
+}
+
+.keaapp1 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+
+.keaapp2 {
+    display: flex;
+    justify-content: center;
+}
+
+.keaapp2 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.frontcover {
+    display: flex;
+    justify-content: center;
+}
+
+.frontcover img {
+    width: 100vw;
+    height: 65vw;
+}
+
+.joe1 {
+    display: flex;
+    justify-content: center;
+}
+
+.joe1 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.joe2 {
+    display: flex;
+    justify-content: center;
+}
+
+.joe2 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+
+.joe3 {
+    display: flex;
+    justify-content: center;
+}
+
+.joe3 img {
+    width: 75vw;
+    height: 40vw;
+}
+
+.spotify {
+    display: flex;
+    justify-content: center;
+}
+
+.spotify img {
+    width: 75vw;
+    height: 40vw;
+}
+
+
+.selvportraet {
+    display: flex;
+    justify-content: center;
+}
+
+.selvportraet img {
+    width: 40vw;
+    height: 40vw;
+}
+
+#spotifyembed iframe {
+    display: block;
+    margin: auto;
+    margin-top: 1vw;
+}
